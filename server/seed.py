@@ -12,6 +12,7 @@ with app.app_context():
     Restaurant.query.delete()
     RestaurantPizza.query.delete()
 
+
     print("Creating restaurants...")
     shack = Restaurant(name="Karen's Pizza Shack", address='address1')
     bistro = Restaurant(name="Sanjay's Pizza", address='address2')
